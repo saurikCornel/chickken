@@ -12,6 +12,6 @@ enum AvailableScreens {
 }
 
 class NavResult: ObservableObject {
-    @Published var currentScreen: AvailableScreens = .MENU
+    @Published var currentScreen: AvailableScreens = .LOADING
     static var shared: NavResult = .init()
 }
