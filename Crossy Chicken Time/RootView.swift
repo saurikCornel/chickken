@@ -21,6 +21,10 @@ struct RootView: View {
             RunGame()
         case .JUMPGAME:
             JumpGame()
+        case .DAILY:
+            DailyScreen()
+        case .BEGIN:
+            BeginningGame()
             
         }
 

@@ -14,6 +14,8 @@ struct MenuView: View {
                             HStack  {
                                 ButtonTemplateSmall(image: "rulesBtn", action: {NavResult.shared.currentScreen = .RULES})
                                 Spacer()
+                                ButtonTemplateBig(image: "daily", action: {NavResult.shared.currentScreen = .DAILY})
+                                Spacer()
                                 ButtonTemplateSmall(image: "settingsBtn", action: {NavResult.shared.currentScreen = .SETTINGS})
                             }
                             
@@ -35,6 +37,8 @@ struct MenuView: View {
                             Spacer()
                             HStack {
                                 ButtonTemplateMiddle(image: "moveGameBtn", action: {NavResult.shared.currentScreen = .GAME2048})
+                                
+                                ButtonTemplateMiddle(image: "beginBtn", action: {NavResult.shared.currentScreen = .GAME2048})
                             }
                             
                             HStack {

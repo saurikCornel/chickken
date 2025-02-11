@@ -9,9 +9,11 @@ enum AvailableScreens {
     case GAME2048
     case RUNGAME
     case JUMPGAME
+    case DAILY
+    case BEGIN
 }
 
 class NavResult: ObservableObject {
-    @Published var currentScreen: AvailableScreens = .LOADING
+    @Published var currentScreen: AvailableScreens = .MENU
     static var shared: NavResult = .init()
 }
