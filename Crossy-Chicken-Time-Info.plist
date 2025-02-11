@@ -6,9 +6,11 @@
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>happyfishingfrenzy.xyz</key>
+			<key>crossychickentime.top</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
 		</dict>
